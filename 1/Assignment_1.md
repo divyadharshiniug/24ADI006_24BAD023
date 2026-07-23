@@ -9,7 +9,7 @@ It "learns" by adjusting its weights whenever it makes a wrong guess, slowly get
 
 What I Did:
 
-Built the perceptron from scratch using NumPy (no ready-made library model) — wrote my own training and prediction logic.
+Built the perceptron from scratch using NumPy .
 Tested it on the AND gate: it correctly learned that output is 1 only when both inputs are 1 → got 100% accuracy.
 Tested it on the OR gate: it correctly learned that output is 1 if at least one input is 1 → got 100% accuracy.
 These worked perfectly because AND/OR are "easy" problems — a single straight line can cleanly separate the correct answers from the wrong ones.
